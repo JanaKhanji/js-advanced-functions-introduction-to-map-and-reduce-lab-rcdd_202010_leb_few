@@ -27,3 +27,13 @@ function mapToDouble(src) {
 }
 
 
+
+function mapToSquare(src) {
+  let r = []
+  for (let i = 0; i < src.length; i++ ) {
+    r.push(src[i] * src[i])
+  }
+  return r
+}
+
+
