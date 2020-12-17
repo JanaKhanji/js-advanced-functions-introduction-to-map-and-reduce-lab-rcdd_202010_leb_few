@@ -17,3 +17,13 @@ function mapToNoChange(src) {
 }
 
 
+
+function mapToDouble(src) {
+  let r = []
+  for (let i = 0; i < src.length; i++ ) {
+    r.push(2 * src[i])
+  }
+  return r
+}
+
+
